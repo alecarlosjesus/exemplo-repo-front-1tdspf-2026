@@ -1,0 +1,9 @@
+
+#Ignorando arquivos PDF
+*.pdf
+
+#Ignorando o arquivo ,DS_Store do MacOS
+.DS_Store
+
+#Ignorando uma pasta chamada "temp"
+temp/
