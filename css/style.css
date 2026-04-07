@@ -33,3 +33,7 @@ ul li a{
 ul li a:hover {
     background-color:rgb(226, 51, 51);
 }
+
+.active {
+    background-color: #04AA6D;
+}
