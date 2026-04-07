@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.cabecalho {
+  background-color: #333;
+}
+
+
+.cabecalho h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+  overflow: hidden;
+}
+
+
+nav ul li {
+  float: left;
+}
+
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+
+nav ul li a.ativo {
+  background-color: #04AA6D;
+}
+
+
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
