@@ -1,125 +1,136 @@
+/* 1. RESET BÁSICO E CONFIGURAÇÃO DE BOX-SIZING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding/border não quebrem a largura dos elementos */
+}
+
+/* 2. DEFINIÇÃO DA IDENTIDADE VISUAL (Variáveis) */
+:root {
+    --cor-principal: #375E87;
+    --cor-principal-dark: hsl(211, 41%, 36%);
+    --cor-destaque: palevioletred;
+    --cor-fundo-claro: #FFFFFF;
+    --cor-card-fundo: azure;
+    --cor-texto-claro: aliceblue;
+    
+    /* Fontes */
+    --fonte-titulos: Arial, sans-serif;
+    --fonte-corpo: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* 3. CONFIGURAÇÃO DO BODY */
+body {
+    font-family: var(--fonte-corpo);
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-principal);
+    line-height: 1.6;
+}
+
+/* --- MANUTENÇÃO DO SEU LAYOUT ORIGINAL (Agora com variáveis) --- */
 
 .cabecalho {
-    background-color: hsl(211, 41%, 36%);
-    color:aliceblue;
+    background-color: var(--cor-principal-dark);
+    color: var(--cor-texto-claro);
 }
 
 .titulo {
-    font-family: Arial, sans-serif;
+    font-family: var(--fonte-titulos);
     padding: 15px;
     letter-spacing: -1px;
-    margin: auto;
 }
 
 .navegacao {
-    background-color:#375E87;
+    background-color: var(--cor-principal);
     padding: 10px;
 }
 
 .navegacao a {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:aliceblue;
+    font-family: var(--fonte-corpo);
+    color: var(--cor-texto-claro);
     font-size: 20px;
     padding: 10px 20px;
     text-decoration: none;
+    display: inline-block; /* Melhora o clique e o respiro do link */
 }
 
 .navegacao a:hover {
-    color:#375E87;
-    background-color: aliceblue;
+    color: var(--cor-principal);
+    background-color: var(--cor-texto-claro);
     transition: 0.5s;
 }
 
 h2 {
-    font-family: Arial, sans-serif;
-    color:#375E87;
-}
-
-section p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-titulos);
+    color: var(--cor-principal);
+    margin-bottom: 10px;
 }
 
 #mais-info {
-    color: #375E87;
+    color: var(--cor-principal);
     font-size: 17px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonte-corpo);
     text-decoration: none;
     display: block;
+    margin-top: 10px;
 }
 
 #mais-info:hover {
-    color: palevioletred;
+    color: var(--cor-destaque);
     transition: 0.3s;
 }
 
 footer p {
     font-size: 14px;
-    color: #375E87;
+    color: var(--cor-principal);
 }
 
 .hero {
-    background-color:#FFFFFF;
-    padding-left: 10px;
+    background-color: var(--cor-fundo-claro);
+    padding: 20px 10px;
     text-align: justify;
 }
 
-.hero a {
-    padding: 3px;
-}
-
-#botao:hover{
-    background-color: palevioletred;
-    transition: 0.5s;
-}
-
 .container {
-    padding: 10px;
+    padding: 20px 10px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap; /* Adicionado para não quebrar em telas menores (celulares) */
     justify-content: space-between;
     gap: 20px;
-    
 }
 
 .card {
-    background-color:azure;
-    border: 2px solid #375E87;
+    flex: 1; /* Faz os cards dividirem o espaço */
+    min-width: 250px; /* Impede que fiquem esmagados */
+    background-color: var(--cor-card-fundo);
+    border: 2px solid var(--cor-principal);
     border-radius: 10px;
     padding: 15px;
 }
 
 .botao-01 {
-    background-color: #375E87;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-corpo);
     text-decoration: none;
     font-size: 17px;
-    color: aliceblue;
+    color: var(--cor-texto-claro);
+    border-radius: 5px;
 }
 
-.paragrafo-card {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #375E87;
+.botao-01:hover {
+    background-color: var(--cor-destaque);
+    transition: 0.5s;
 }
 
 .titulo-card {
-    font-family: Arial, sans-serif;
-    color: #375E87;
+    font-family: var(--fonte-titulos);
+    color: var(--cor-principal);
+    margin-bottom: 8px;
 }
 
 .rodape {
-    padding:15px;
-}
-
-.rodape a {
-    color: aliceblue;
-    background-color: #375E87;
-    font-size: 17px;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 5px 10px;
-}
-
-.rodape a:hover {
-    background-color: palevioletred;
-    transition: 0.5s;
+    padding: 15px;
+    text-align: center;
 }
