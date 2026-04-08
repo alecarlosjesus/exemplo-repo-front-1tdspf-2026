@@ -1,6 +1,6 @@
 # ESPORTE 🚀
 
-## HISTÓRIO DOS ESPORTES
+## HISTÓRIA DOS ESPORTES
 O esporte é uma parte fundamental da cultura humana, remontando a milhares de anos. Desde as antigas civilizações, como os gregos e romanos, até os dias atuais, o esporte tem desempenhado um papel crucial na sociedade. Ele promove a saúde física, a camaradagem e a competição saudável entre as pessoas. O esporte também tem o poder de unir as pessoas, transcender barreiras culturais e inspirar gerações. Com o avanço da tecnologia, o esporte evoluiu para incluir uma variedade de modalidades, desde os esportes tradicionais, como futebol e basquete, até os esportes eletrônicos, que estão ganhando popularidade em todo o mundo. O esporte continua a ser uma força poderosa na vida das pessoas, promovendo a saúde, a diversão e a conexão social.
 
 ## 🛠 Tecnologias
