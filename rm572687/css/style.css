@@ -15,7 +15,27 @@
     padding: 10px;
    /*box-shadow: rigth top blur/espalhamento;  */
     box-shadow: 10px 5px 4px;
+    border-radius: 5px;
 
 }
+#hero a{
 
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a1b1c1a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#hero a:hover{
+
+    background-color: #fff;
+    color: #1a1b1c;
+}
+#hero a:active{
+
+    background-color: #fff;
+    color: #1a1b1c;
+
+}
 
