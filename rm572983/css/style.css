@@ -31,6 +31,29 @@ ul li a:hover {
   background-color: #111111;
 }
 
+#hero{
+  background-color: #6b6a6a;
+  text-align: justify;
+  padding: 10px;
+  box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.2);
+  border-radious: 5px;
+}
+ #hero a{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+ }
+/* Pseudo é como se fosse uma condição
+Falamos para o seletor, se acontecer isso, faça aquilo*/
+#hero a:hover{
+  background-color: #656565;
+  color: #373737;
+}
 
-
-
+#hero a:active{
+  background-color: #deff49;
+  color: #232323;
+}
+/* Editar a imagem*/
