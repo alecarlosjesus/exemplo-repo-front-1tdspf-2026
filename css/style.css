@@ -1,11 +1,36 @@
-
-header {
-    background-color: #1a1b1c;
-    color: yellow;
+body{
+    background-color:rgb(137, 132, 151);
 }
 
-header h1 {
-    font-family: Arial, sans-serif;
+header{
+    background-color: rgb(182, 182, 187);
+    padding: 20px;
+}
+
+header a{
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: brown;
+    transition: 2s;
+}
+h2{
+    color: black;
+    font-size: 20px;
 }
 
 
+.section-1 a{
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.section-1 a:hover{
+    color: brown;
+    transition: 2s;
+}
