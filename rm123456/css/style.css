@@ -1,0 +1,41 @@
+
+#cabecalho {
+    background-color: #1a1b1c;
+    color: yellow;
+}
+
+#cabecalho h1 {
+    font-family: Arial, sans-serif;
+}
+
+#hero{
+    background-color: #c6c1c1;
+    text-align: justify; 
+    padding: 20px;
+    /* box-shadow: right top blur/espalhamento;    */
+    box-shadow: 10px 20px 20px;
+    border-radius: 5px;   
+}
+
+#hero a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a1b1c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* pseudo-classe é como se fosse uma condição.
+Falamos para o seletor, se acontecer isso, faça aquilo. */
+#hero a:hover{
+    background-color: #fff;
+    color: #1a1b1c;
+}
+
+#hero a:active{
+    background-color: #fff000;
+    color: #1a1b1c;
+}
+
+
+/* Editar a imagem */
