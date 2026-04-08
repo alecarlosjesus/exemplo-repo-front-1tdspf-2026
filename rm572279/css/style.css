@@ -1,0 +1,140 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* PALETA DE CORES */
+:root {
+  --cor-primaria: #2ecc71;   
+  --cor-secundaria: #0f172a; 
+  --cor-fundo: #f8fafc;      
+  --cor-texto: #ffffff;
+  --cor-destaque: #38bdf8;   
+  --cor-texto-escuro: #1f2937;
+}
+header {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-destaque);
+  padding: 15px;
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+    color: var(--cor-primaria)
+
+}
+body {
+  font-family: Arial, sans-serif;
+  color: var(--cor-texto-escuro)
+}
+main {
+  padding: 20px;
+  color: var(--cor-texto-escuro);
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--cor-secundaria);
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+
+.navbar li {
+  flex: unset;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar li a:hover {
+ background-color: var(--cor-destaque);
+  color: #000;
+}
+
+
+.cabecalho::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* active */
+.navbar li a.active {
+ background-color: var(--cor-primaria);
+}
+
+.hero {
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto);
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: var(--cor-destaque);
+  color: #000;
+}
+
+footer {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+footer a {
+ color: var(--cor-primaria);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+main img {
+  width: 20%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  filter: grayscale(100%) contrast(110%) brightness(95%);
+
+  transition: 0.4s ease;
+}
+
+
+main img:hover {
+  filter: grayscale(0%) contrast(110%) brightness(100%);
+  transform: scale(1.03);
+}

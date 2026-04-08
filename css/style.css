@@ -9,3 +9,52 @@ header h1 {
 }
 
 
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #333;
+  align-items: center;
+}
+
+
+.navbar li {
+  flex: 1;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+
+.cabecalho::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* active */
+.navbar li a.active {
+  background-color: #04AA6D;
+}
+
+/* centro */
+.navbar li.center {
+  text-align: center;
+}
+
+/* direita */
+.navbar li.right {
+  text-align: right;
+}
+
