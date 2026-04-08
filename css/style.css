@@ -1,11 +1,21 @@
 
 header {
     background-color: #1a1b1c;
-    color: yellow;
+    color: rgb(88, 0, 34);
 }
 
 header h1 {
     font-family: Arial, sans-serif;
 }
 
+.navegacao{
+    background-color:rgb(201, 201, 201);
+    padding: 10px 20px;
 
+}
+
+.navegacao a:hover{
+    color:blanchedalmond;
+    background-color: aliceblue;
+    transition: 0.5s;
+}
