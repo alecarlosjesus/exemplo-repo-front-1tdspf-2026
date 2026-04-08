@@ -70,3 +70,26 @@ img {
   height: auto;
   border-radius: 5px;
 }
+.container {
+  width: 100%;
+  overflow: hidden; /* ajuda com float */
+}
+
+.card {
+  width: 30%; //Cabem 3 na linha
+  float: left; // Deixa os cards lado a lado
+  margin: 1.66%; //Espaçamento entre os cards
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center; //Centraliza o conteúdo do card
+  box-shadow: 5px 3px 5px rgba(0,0,0,0.1);
+}
+
+.card span {
+  font-size: 40px; //Tamanho do emoji
+}
+
+.card h3 {
+  margin: 10px 0;
+}
