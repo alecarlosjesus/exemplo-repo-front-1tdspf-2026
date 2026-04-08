@@ -40,3 +40,8 @@ ul li {
 ul li:last-child {
   border-right: none;
 }
+
+#hero {
+    background-color: #7d9bc2;
+    
+}
