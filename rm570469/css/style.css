@@ -43,5 +43,8 @@ ul li:last-child {
 
 #hero {
     background-color: #7d9bc2;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 10px 5px 4px;
     
 }
