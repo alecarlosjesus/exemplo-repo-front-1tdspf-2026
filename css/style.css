@@ -1,11 +1,55 @@
 
-header {
-    background-color: #1a1b1c;
-    color: yellow;
+.cabecalho {
+    background-color: hsl(211, 41%, 36%);
+    color:aliceblue;
 }
 
-header h1 {
+.titulo {
     font-family: Arial, sans-serif;
+    padding: 15px;
+    letter-spacing: -1px;
+    margin: auto;
 }
 
+.navegacao {
+    background-color:#375E87;
+    padding: 10px;
+}
 
+.navegacao, a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aliceblue;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navegacao a:hover {
+    color:#375E87;
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    color:#375E87;
+}
+
+section p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mais-info {
+    color: #375E87;
+    font-size: 17px;
+}
+
+#mais-info:hover {
+    color: burlywood;
+    transition: 0.3s;
+}
+
+footer p {
+    font-size: 14px;
+    color: #375E87;
+}
