@@ -51,4 +51,18 @@ img {
     width: 100px;
     height: 100px;
 }
+.navegacao {
+
+  background-color: rosybrown;  
+  padding: 30px 30px;
+
+}
+.navegacao a {
+
+    color: beige;
+    padding: 100px 100px;
+}
+.rodapé a {
+    color: palevioletred;
+}
 
