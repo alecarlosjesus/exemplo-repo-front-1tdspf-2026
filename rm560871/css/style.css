@@ -1,11 +1,11 @@
-/* 1. RESET BÁSICO E CONFIGURAÇÃO DE BOX-SIZING */
+/* RESET BÁSICO E CONFIG DE BOX-SIZING */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Garante que padding/border não quebrem a largura dos elementos */
 }
 
-/* 2. DEFINIÇÃO DA IDENTIDADE VISUAL (Variáveis) */
+/* IDENTIDADE VISUAL (Var) */
 :root {
     --cor-principal: #375E87;
     --cor-principal-dark: hsl(211, 41%, 36%);
@@ -14,12 +14,12 @@
     --cor-card-fundo: azure;
     --cor-texto-claro: aliceblue;
     
-    /* Fontes */
+/* Fontes */
     --fonte-titulos: Arial, sans-serif;
     --fonte-corpo: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* 3. CONFIGURAÇÃO DO BODY */
+/* BODY */
 body {
     font-family: var(--fonte-corpo);
     background-color: var(--cor-fundo-claro);
@@ -27,7 +27,6 @@ body {
     line-height: 1.6;
 }
 
-/* --- MANUTENÇÃO DO SEU LAYOUT ORIGINAL (Agora com variáveis) --- */
 
 .cabecalho {
     background-color: var(--cor-principal-dark);
@@ -51,7 +50,6 @@ body {
     font-size: 20px;
     padding: 10px 20px;
     text-decoration: none;
-    display: inline-block; /* Melhora o clique e o respiro do link */
 }
 
 .navegacao a:hover {
@@ -94,7 +92,6 @@ footer p {
 .container {
     padding: 20px 10px;
     display: flex;
-    flex-wrap: wrap; /* Adicionado para não quebrar em telas menores (celulares) */
     justify-content: space-between;
     gap: 20px;
 }
@@ -110,13 +107,12 @@ footer p {
 
 .botao-01 {
     display: inline-block;
-    padding: 8px 15px;
+    padding: 5px 15px;
     background-color: var(--cor-principal);
     font-family: var(--fonte-corpo);
     text-decoration: none;
     font-size: 17px;
     color: var(--cor-texto-claro);
-    border-radius: 5px;
 }
 
 .botao-01:hover {
