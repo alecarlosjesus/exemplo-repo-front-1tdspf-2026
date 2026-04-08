@@ -1,11 +1,28 @@
 
-header {
-    background-color: #1a1b1c;
-    color: yellow;
+#cabecalho{
+    background-color: #bfbfcf;
+    color:  yellow;
 }
-
-header h1 {
+#cabecalho h1{
     font-family: Arial, sans-serif;
 }
-
-
+#hero{
+    background-color: rgb(77, 77, 202);
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 10px 5px 4px;
+}
+#hero a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+#hero a:hover{
+    background-color: #af7777;
+    color: #1a1b1c;
+}
+#hero a:active{
+    background-color: yellow;
+    color: #1a1b1c;
+}
