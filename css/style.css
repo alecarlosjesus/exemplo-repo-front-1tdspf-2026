@@ -1,6 +1,6 @@
 
 header {
-    background-color: dimgray;
+    background-color: rgb(66, 126, 167);
     color: rgb(255, 255, 255);
 }
 
@@ -32,3 +32,11 @@ ul li a:hover {
   background-color: #4bbdff;
 }
 
+ul li {
+  float: left;
+  border-right: 1px solid #bbbbbb;
+}
+
+ul li:last-child {
+  border-right: none;
+}
