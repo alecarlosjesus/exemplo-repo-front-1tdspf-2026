@@ -1,10 +1,10 @@
 
-#cabecalho {
+.cabecalho {
     background-color: #1a1b1c;
     color: yellow;
 }
 
-#cabecalho h1 {
+.cabecalho h1 {
     font-family: Arial, sans-serif;
 }
 
@@ -37,5 +37,9 @@
     background-color: #fff;
     color: #1a1b1c;
 
+}
+.cards{
+    border-radius: 10px;
+    background-color: aqua;
 }
 
