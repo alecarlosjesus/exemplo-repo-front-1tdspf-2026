@@ -1,0 +1,28 @@
+
+header {
+    background-color: #93ffff;
+    color: Black;
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+section {
+  border: 1px solid #1451d4;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #00e1ff; 
+}
+
+
+footer {
+    
+
+}
