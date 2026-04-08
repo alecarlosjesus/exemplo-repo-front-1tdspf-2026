@@ -46,5 +46,17 @@ ul li:last-child {
     text-align: justify;
     padding: 10px;
     box-shadow: 10px 5px 4px;
-    
+}
+
+#hero a{
+  text-decoration: none;
+  color: white;
+  background-color: #4e8dc0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#hero a:hover {
+  background-color: #ffffff;
+  color: #6396c0;
 }
