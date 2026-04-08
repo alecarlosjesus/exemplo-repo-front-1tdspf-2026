@@ -1,7 +1,8 @@
 
 header {
-    background-color: #1a1b1c;
-    color: yellow;
+    background-color: #7e7e7e;
+    color: black;
+    text-align: center;
 }
 
 header h1 {
@@ -14,9 +15,16 @@ header nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  text-align: center;
 }
-ul li {
-  float: left;
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* CENTRALIZA */
+  padding: 0;
+  margin: 0;
+  background-color: #464646;
+  font-family: Arial, sans-serif;
 }
 
 ul li a {
@@ -31,12 +39,12 @@ ul li a:hover {
   background-color: #111111;
 }
 
-#hero{
-  background-color: #6b6a6a;
-  text-align: justify;
-  padding: 10px;
+#hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 40px;
   box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.2);
-  border-radious: 5px;
+  border-radius: 5px;
 }
  #hero a{
   color: #ffffff;
@@ -48,8 +56,8 @@ ul li a:hover {
 /* Pseudo é como se fosse uma condição
 Falamos para o seletor, se acontecer isso, faça aquilo*/
 #hero a:hover{
-  background-color: #656565;
-  color: #373737;
+  background-color: #7e7e7e;
+  color: #181818;
 }
 
 #hero a:active{
@@ -57,3 +65,8 @@ Falamos para o seletor, se acontecer isso, faça aquilo*/
   color: #232323;
 }
 /* Editar a imagem*/
+img {
+  width: 5%;
+  height: auto;
+  border-radius: 5px;
+}
