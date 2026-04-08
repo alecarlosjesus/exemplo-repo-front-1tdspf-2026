@@ -44,6 +44,7 @@ section p {
     font-size: 17px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    display: block;
 }
 
 #mais-info:hover {
@@ -57,9 +58,18 @@ footer p {
 }
 
 .hero {
-    background-color:bisque;
+    background-color:#FFFFFF;
     padding-left: 10px;
     text-align: justify;
+}
+
+.hero a {
+    padding: 3px;
+}
+
+#botao:hover{
+    background-color: palevioletred;
+    transition: 0.5s;
 }
 
 .container {
@@ -79,11 +89,11 @@ footer p {
 }
 
 .botao-01 {
-    background-color: aliceblue;
+    background-color: #375E87;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    font-size: 18px;
-    color:#375E87;
+    font-size: 17px;
+    color: aliceblue;
 }
 
 .paragrafo-card {
@@ -94,4 +104,22 @@ footer p {
 .titulo-card {
     font-family: Arial, sans-serif;
     color: #375E87;
+}
+
+.rodape {
+    padding:15px;
+}
+
+.rodape a {
+    color: aliceblue;
+    background-color: #375E87;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 10px;
+}
+
+.rodape a:hover {
+    background-color: palevioletred;
+    transition: 0.5s;
 }
