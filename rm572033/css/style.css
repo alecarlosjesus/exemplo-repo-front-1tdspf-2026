@@ -55,3 +55,26 @@ header h1{
     background-color: yellow;
     color: #1a1b1c;
 }
+/*Personalizando a div para deixar um card do lado do outro*/
+#div{
+   display: flex;
+   justify-content: space-between;
+   text-align: justify;
+}
+#div h3{
+    text-align: center;
+}
+img{
+    height: 150px;
+    margin-left: 30px;
+}
+.imagens{
+    border: solid 3px #ac5454;
+    border-radius: 5px;
+}
+p {
+    padding: 20px;
+}
+#div{
+    margin-top: 20px;
+}
