@@ -1,0 +1,33 @@
+
+header {
+    background-color: #1a1b1c;
+    color: yellow;
+}
+
+header h1 {
+    font-family: Arial, sans-serif;
+}
+.hero {
+  background-color: brown ;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h2 {
+  font-size: 28px;
+}
+
+.hero p {
+  font-size: 10px;
+  margin: 20px 0;
+}
+
+.hero button {
+    padding: 5px 20px;
+    background-color: rgb(34, 24, 24);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+      
+}
