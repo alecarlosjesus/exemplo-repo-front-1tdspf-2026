@@ -10,11 +10,11 @@ header h1 {
 .hero {
   background-color: brown ;
   text-align: center;
-  padding: 50px;
+  padding: 100px;
 }
 
 .hero h2 {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .hero p {
