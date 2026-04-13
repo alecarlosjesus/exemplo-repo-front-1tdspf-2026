@@ -1,0 +1,90 @@
+//
+// Fontes básicas:
+//  font-family: "Courier New", Courier, monospace;
+//  font-family: 'Open Sans', sans-serif;
+//
+// Cores básicas:
+// CINZA #696969
+// BRANCO #e0e0e0
+//
+
+header {
+    background-color: #e0e0e0;
+    color: #696969;
+}
+
+header h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 70px;
+    color: #696969;
+    padding-top: 5px;
+    padding-left: 80px;
+}
+
+body {
+    font-family: font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    font-family: font-family: 'Open Sans', sans-serif;
+    color: #696969;
+    margin: 0px;
+    font-size: 30px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    text-align: center;
+}
+
+ul li a {
+    display: block;
+    color: #696969;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 46px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #696969;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    color: #e0e0e0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 2px
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #696969;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    color: #e0e0e0;
+    font-family: 'Open Sans', sans-serif;
+}
+footer a {
+    color: #e0e0e0;
+    padding: 40px;
+}
