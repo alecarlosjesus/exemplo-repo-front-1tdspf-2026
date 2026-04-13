@@ -1,9 +1,16 @@
 
+/*fazendo o reset da página*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #925858;
     color: yellow;
 }
-header h1{
+body {
     font-family: Arial, sans-serif;
 }
 /*Adicionando a barra de navegação (funcional em todas as páginas)*/
@@ -78,7 +85,7 @@ p {
 #div{
     margin-top: 20px;
 }
-
+/*Personalizando o rodapé das páginas com cor e alinhamento de texto.*/
 #rodape{
     text-align: center;
     background-color: #443131;
