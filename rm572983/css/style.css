@@ -1,14 +1,35 @@
+*{
+  margin: 0;
+  /*margin: 0 0 0 0;*/
+  /*margin: 0 0 0;*/
+  /*margin: 0 0;*/
+  /*
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  */
+  padding: 0;
+  box-sizing: border-box;
+}
 
-header {
+  .container{
+      margin:0 auto;
+      width: 75vw;
+      height: 100vh;
+      border: 2px solid #000000;
+  }
+
+  header {
     background-color: #7e7e7e;
     color: black;
     text-align: center;
 }
-
+ 
 header h1 {
     font-family: Arial, sans-serif;
 }
-
+ 
 header nav ul {
   list-style-type: none;
   margin: 0;
@@ -26,7 +47,7 @@ header nav ul {
   background-color: #464646;
   font-family: Arial, sans-serif;
 }
-
+ 
 ul li a {
   display: block;
   color: white;
@@ -34,11 +55,11 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+ 
 ul li a:hover {
   background-color: #111111;
 }
-
+ 
 #hero {
   background-color: #f4f4f4;
   text-align: center;
@@ -59,7 +80,7 @@ Falamos para o seletor, se acontecer isso, faça aquilo*/
   background-color: #7e7e7e;
   color: #181818;
 }
-
+ 
 #hero a:active{
   background-color: #deff49;
   color: #232323;
@@ -74,7 +95,7 @@ img {
   width: 100%;
   overflow: hidden;
 }
-
+ 
 .card {
   width: 30%;
   float: left;
@@ -85,11 +106,11 @@ img {
   text-align: center;
   box-sizing: border-box; /* ESSENCIAL */
 }
-
+ 
 .card span {
   font-size: 40px; //Tamanho do emoji
 }
-
+ 
 .card h3 {
   margin: 10px 0;
 }
@@ -99,13 +120,14 @@ footer {
   text-align: center;
   padding: 20px;
 }
-
+ 
 footer a {
   color: #ffffff;
   text-decoration: none;
   margin: 0 10px;
 }
-
+ 
 footer a:hover {
   text-decoration: underline;
 }
+
