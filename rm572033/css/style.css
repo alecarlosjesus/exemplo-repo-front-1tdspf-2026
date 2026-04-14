@@ -5,10 +5,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/*testando a movimentação do conteudo da pagina com div */
+.container {
+    margin: 0 auto; 
+}
 
 header {
     background-color: #925858;
     color: yellow;
+}
+header h1{
+    padding: 10px;
 }
 body {
     font-family: Arial, sans-serif;
