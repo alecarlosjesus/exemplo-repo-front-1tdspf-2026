@@ -29,46 +29,6 @@ main{
     font-size: 1em;
 }
 
-
-header {
-    background-color: #925858;
-    color: yellow;
-}
-header h1{
-    padding: 10px;
-}
-body {
-    font-family: Arial, sans-serif;
-}
-
-/*Adicionando a barra de navegação (funcional em todas as páginas)*/
-.menu ul{
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #8a8080;
-}
-.menu ul li{
-    float: left;
-}
-.menu ul li a{
-    display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.menu ul li a:hover{
-    background-color:rgb(226, 51, 51);
-}
-.active{
-    background-color: #04AA6D;
-}
-.menu ul li{
-    float: left;
-  border-right: 1px solid #bbbbbb;
-}
 /*Personalizando a primeira section do main na index.html, utilizando o id= "hero"*/
 #hero{
     background-color: rgb(77, 77, 202);
@@ -92,16 +52,16 @@ body {
 }
 /*Personalizando a div para deixar um card do lado do outro*/
 #div{
-   display: flex;
-   justify-content: space-between;
-   text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
 }
 #div h3{
     text-align: center;
 }
 img{
     height: 150px;
-    margin-left: 30px;
+    margin-left: 123px;
 }
 .imagens{
     border: solid 3px #ac5454;
