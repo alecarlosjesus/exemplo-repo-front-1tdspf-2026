@@ -1,0 +1,138 @@
+
+.cabecalho {
+    background-color: #1a1b1c;
+    color: yellow;
+}
+
+.cabecalho h1 {
+    font-family: Arial, sans-serif;
+}
+
+#hero {
+
+    background: color #c6c1c1; ;
+    text-align: justify;
+    padding: 10px;
+   /*box-shadow: rigth top blur/espalhamento;  */
+    box-shadow: 10px 5px 4px;
+    border-radius: 5px;
+
+}
+#hero a{
+
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a1b1c1a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#hero a:hover{
+
+    background-color: #fff;
+    color: #1a1b1c;
+}
+#hero a:active{
+
+    background-color: #fff;
+    color: #1a1b1c;
+
+}
+.cards{
+    border-radius: 10px;
+    background-color: aqua;
+}
+.rodapé{
+    background-color: #1a1b1c;
+    color: white;
+
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.navegacao {
+
+  background-color: rosybrown;  
+  padding: 30px 30px;
+
+}
+.navegacao a {
+
+    color: beige;
+    padding: 100px 100px;
+}
+.rodapé a {
+    color: palevioletred;
+}
+
+
+
+
+.cabeca{
+    background-color: #1a1b1c;
+    color: yellow;
+}
+
+.cabeca h1 {
+    font-family: Arial, sans-serif;
+}
+
+#tema {
+
+    background: color #c6c1c1; ;
+    text-align: justify;
+    padding: 10px;
+   /*box-shadow: rigth top blur/espalhamento;  */
+    box-shadow: 10px 5px 4px;
+    border-radius: 5px;
+
+}
+#tema a{
+
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a1b1c1a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tema  a:hover{
+
+    background-color: #fff;
+    color: #1a1b1c;
+}
+#tema a:active{
+
+    background-color: #fff;
+    color: #1a1b1c;
+
+}
+.cardsbasquete{
+    border-radius: 10px;
+    background-color: aqua;
+}
+.base{
+    background-color: #1a1b1c;
+    color: white;
+
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.nav {
+
+  background-color: rosybrown;  
+  padding: 30px 30px;
+
+}
+.nav a {
+
+    color: beige;
+    padding: 100px 100px;
+}
+.base a {
+    color: palevioletred;
+}
+
