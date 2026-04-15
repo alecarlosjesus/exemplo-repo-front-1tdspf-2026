@@ -4,11 +4,31 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-size: 100% ;
+    font-weight: normal;
 }
-/*testando a movimentação do conteudo da pagina com div */
-.container {
-    margin: 0 auto; 
+/*adaptando as fontes para responsividade - aula 15/04*/
+html{
+    font-size: 62.5%;
 }
+body{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    
+}
+
+main{
+    font-size: 1em;
+}
+
 
 header {
     background-color: #925858;
@@ -20,6 +40,7 @@ header h1{
 body {
     font-family: Arial, sans-serif;
 }
+
 /*Adicionando a barra de navegação (funcional em todas as páginas)*/
 .menu ul{
     list-style-type: none;
