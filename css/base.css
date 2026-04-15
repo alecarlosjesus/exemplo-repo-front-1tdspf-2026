@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-weight: normal;
+    
+}
+/* h1,h2,h3,h4,h5,h6,p{
+    font-size: 1em;
+    font-weight: normal;
+} */
+    
+
+html{
+    /*font-size: 100%; 16px = 1rem */
+    font-size: 62.5%;/* 16px = 1rem */
+}
+
+body{
+    font-size: 2.5rem; /* 32px */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style: none;
+}
+
+main{
+    font-size: 1em;
+}

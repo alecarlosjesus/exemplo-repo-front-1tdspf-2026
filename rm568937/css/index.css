@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #8a8a8a;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+
+.cabecalho{
+    background: #1f1f1f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo{
+    font-family: "Arimo", sans-serif;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar a{
+    color: #eaeaea;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    color: #888;
+}
+
+.ativo{
+    border-bottom: 2px solid #888;
+}
+
+
+#hero{
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+    color: white;
+}
+
+#hero h2{
+    margin-bottom: 12px;
+}
+
+#hero p{
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+
+
+button{
+    display: block;
+    margin: 20px auto 30px auto; 
+    padding: 12px 25px;
+    border: none;
+    background: #444;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #222;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card{
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    border-color: #999;
+}
+
+.card h3{
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 14px;
+    color: #666;
+}
+
+
+footer{
+    background: #1f1f1f;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+footer p{
+    margin-bottom: 5px;
+}
+
+.redes{
+    margin-top: 8px;
+}
+
+.redes a{
+    color: #aaa;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.redes a:hover{
+    color: white;
+}
