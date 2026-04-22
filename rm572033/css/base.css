@@ -7,6 +7,14 @@
     font-size: 100% ;
     font-weight: normal;
 }
+:root{
+    --cor-primaria: #00ff00;
+    --cor-secundaria: #ff0000;
+    --cor-fundo: #55555c;
+    --bg-gradiente: linear-gradient(45deg, #303630, #2d3568, #27273a);
+    --text-main: #ffffff;
+    --titulo-main: font-size: 4rem;
+}
 /*adaptando as fontes para responsividade - aula 15/04*/
 html{
     font-size: 62.5%;
@@ -16,6 +24,11 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100vw;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
@@ -26,12 +39,13 @@ ul{
 }
 
 main{
-    font-size: 1em;
+    width: 100%;
+    /* height: 100%; */
 }
 
 /*Personalizando a primeira section do main na index.html, utilizando o id= "hero"*/
 #hero{
-    background-color: rgb(77, 77, 202);
+    /* background-color: rgb(77, 77, 202); */
     text-align: justify;
     padding: 20px;
     box-shadow: 10px 5px 4px;
