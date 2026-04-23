@@ -1,0 +1,161 @@
+@import url(./assets/css/imag.css);
+
+.corpo {
+    background-color: antiquewhite;
+}
+
+
+
+.main__div {
+    display: flex;
+    margin: 0% 0.0%;
+    justify-content: space-around;
+}
+
+#div_basquete {
+    width: 30%;
+    height: 68vh;
+    border: 1px dotted #000000;
+    padding: 0.01%;
+    border-radius: 10%;
+    background-color: #ccc;
+    overflow:hidden; 
+    box-shadow: 2px 1px 6px 10px black ;   
+     background-image: url(../images/imagem\ basquete.png);
+    opacity: 80%;
+
+    
+
+
+
+}
+
+#texto_basquete {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: none;
+    word-spacing: 20%;
+    line-height: 120%;
+    color: #ccc;
+    background-color:transparent;
+    margin: 5% 5%;
+    filter: brightness(200%);
+
+    
+
+}
+
+#div_futebol {
+    width: 28%;
+    height: 68vh;
+    border: 1px solid #000000;
+    border-radius: 10%;
+    background-color: #ccc;
+    overflow:hidden; 
+    box-shadow: 2px 1px 6px 10px black ;
+    background-image: url(../images/imagem\ fotebol.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 80%;
+        
+
+
+}
+
+#texto_futebol {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: none;
+    word-spacing: 20%;
+    line-height: 120%;
+    color: #ccc;
+    background-color: transparent;
+    margin: 5% 5%;
+    background-color: transparent;
+    filter: brightness(500%);
+}
+
+#div_volei {
+    width: 30%;
+    height: 68vh;
+    border: 1px solid #000000;
+    border-radius: 10%;
+    background-color: #ccc;
+    overflow:hidden; 
+    box-sizing: border-box;
+    box-shadow: 2px 1px 6px 10px black ;
+    background-image: url(../images/mulher\ volei.jpeg);
+    background-attachment: fixed;
+    background-position: left bottom;
+    opacity: 80%;
+}
+
+#texto_volei {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+    text-align: justify;
+    background-color: transparent;
+
+    text-decoration: none;
+    word-spacing: 20%;
+    line-height: 120%;
+    color: #ccc;
+    margin: 5% 5%;
+    filter: brightness(200%);
+
+}
+
+
+
+
+.corpo h1 {
+    display: inline-flex;
+    box-shadow: 0px 0px 0px 1px #000000;
+    background-color: rgb(207, 207, 207);
+    border-radius: 20%;
+    margin-left: 43.5%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+.txt__pg {
+
+    width: 80%;
+    height: 1%;
+    border: 1px dotted #000000;
+    border-radius: 10%;
+    background-color: #ccc;
+    margin-left: 10%;   
+        box-shadow: 2px 1px 6px 10px black ;
+
+}
+
+.txt__pg p {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+    text-align: justify;
+    background-color: transparent; 
+    text-decoration: none;
+    word-spacing: 20%;
+    line-height: 100%;
+    color: #000000;
+    margin: 5% 5%;
+    word-spacing: 10px;
+    
+    
+}
+
+p::selection{
+    background-color: rebeccapurple;
+    color: #000000;
+    font-weight: 800;
+}
