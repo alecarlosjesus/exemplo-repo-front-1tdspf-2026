@@ -24,6 +24,7 @@
 .hero_title{
     font-size: var(--titulo-main);
     text-align: center;
+    text-align: center;
 }
 
 .hero_text{
@@ -44,21 +45,18 @@
 
 @media (max-width: 320px){
 
-    .hero__container{
-        
-    }
-
     .hero__title{
-        font-size: 2.5rem;
+        font-size: 100%;
     }
 
     .hero__text{
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
     }
 
     .hero__btn{
-        width: 20%;
-        height: 10%;
+        font-size: 2rem;
+        width: 40%;
+        height: 6%;
     }
 }
