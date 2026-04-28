@@ -12,14 +12,14 @@
 
 .cabecalho__li{
     display: inline-block;
-    margin: 10px 1%;
+    margin: 0 1%;
 }
 
 .cabecalho__a{
     display: inline-block;
     background-color: violet;
-    padding: 10%;
-    width: 20vw;
+    padding: 4%;
+    width: 9vw;
     text-align: center;
    
 }
