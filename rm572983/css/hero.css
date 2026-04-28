@@ -7,7 +7,7 @@
 
 .hero__container{
     /* OVERLAY */
-    background-image: linear-gradient(90deg, rgba(55, 48, 55, 0.7), rgba(11, 216, 18, 0.7), rgba(11, 49, 216, 0.7)), url("../img/img-01-fundo-hero.jpg");
+    background-image: linear-gradient(90deg, #750000, #470000, #1A0000);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,4 +30,35 @@
     font-size: 2rem;
     line-height: 3rem;
     text-align: justify;
+}
+
+.hero__btn{
+    width: 10%;
+    height: 5%;
+    display: inline-block;
+    margin: 0 auto;
+    border: 2px solid var(--text-main);
+    text-align: center;
+  
+}
+
+@media (max-width: 320px){
+
+    .hero__container{
+        
+    }
+
+    .hero__title{
+        font-size: 2.5rem;
+    }
+
+    .hero__text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .hero__btn{
+        width: 20%;
+        height: 10%;
+    }
 }

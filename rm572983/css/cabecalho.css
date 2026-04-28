@@ -17,7 +17,7 @@
 
 .cabecalho__a{
     display: inline-block;
-    background-color: violet;
+    background-color: #1A0000;
     padding: 4%;
     width: 9vw;
     text-align: center;
@@ -27,6 +27,17 @@
 /*PSEUDO CLASSE*/
 
 .cabecalho__a:hover{
-    background-color: #000000;
+    background-color: #750000;
     color: #ffffff;
 }
+
+@media(max-width:320px){
+    .cabecalho__a{
+        padding: 2%;
+        width: 2%;
+        font-size: 2rem;
+    }
+
+    .cabecalho__ul{
+      justify-content: space-around;
+    }
