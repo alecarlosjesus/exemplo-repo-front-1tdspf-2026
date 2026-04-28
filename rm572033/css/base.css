@@ -1,0 +1,100 @@
+
+/*fazendo o reset da página*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 100% ;
+    font-weight: normal;
+}
+:root{
+    --cor-primaria: #00ff00;
+    --cor-secundaria: #ff0000;
+    --cor-fundo: #55555c;
+    --bg-gradiente: linear-gradient(45deg, #303630, #2d3568, #27273a);
+    --text-main: #ffffff;
+    --titulo-main: font-size: 4rem;
+}
+/*adaptando as fontes para responsividade - aula 15/04*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+/*Personalizando a primeira section do main na index.html, utilizando o id= "hero"*/
+/* #hero{
+    background-color: rgb(77, 77, 202);
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 10px 5px 4px;
+}
+#hero a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+#hero a:hover{
+    background-color: #d62424;
+    color: #1a1b1c;
+}
+#hero a:active{
+    background-color: yellow;
+    color: #1a1b1c;
+} */
+
+
+/*Personalizando a div para deixar um card do lado do outro*/
+/* #div{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#div h3{
+    text-align: center;
+}
+img{
+    height: 150px;
+    margin-left: 123px;
+}
+.imagens{
+    border: solid 3px #ac5454;
+    border-radius: 5px;
+}
+p {
+    padding: 20px;
+}
+#div{
+    margin-top: 20px;
+} */
+/*Personalizando o rodapé das páginas com cor e alinhamento de texto.*/
+#rodape{
+    text-align: center;
+    background-color: #443131;
+    color: #ddc7c7;
+}
+#rodape a{
+    color: #ddc7c7;
+}

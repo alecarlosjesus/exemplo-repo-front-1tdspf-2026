@@ -1,0 +1,38 @@
+/*Fazendo a estilização do cabeçalho*/
+.cabecalho{
+    width: 100%;
+    height: auto;
+}
+.cabecalho__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cabecalho__li{
+    display: inline-block;
+    margin: 0 1%;
+}
+.cabecalho__a{
+    display: inline-block;
+    justify-content: center;
+    background-color: violet;
+    padding: 1%;
+    width: 10vw;
+    text-align: center;
+}
+header {
+    background-color: #925858;
+    color: yellow;
+}
+header h1{
+    padding: 10px;
+}
+@media(min-width:320px) and (max-width:720px){
+    .cabecalho__a{
+    padding: 2%;
+    width: 2%;
+    }  
+    .cabecalho__ul{
+        justify-content: space-around;
+    }
+}
