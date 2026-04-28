@@ -36,3 +36,20 @@
     background-color:rgb(189, 27, 167);
     color: #fff;
 }
+
+
+@media(min-width:320px) and (max-width:425px){
+    .hero__title{
+        font-size: 100%;
+    }
+    .hero__text{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+    .hero__btn{
+        font-size: 2rem;
+        width: 40%;
+        height: 6%;
+        
+    }
+}

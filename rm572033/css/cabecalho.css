@@ -27,3 +27,12 @@ header {
 header h1{
     padding: 10px;
 }
+@media(min-width:320px) and (max-width:720px){
+    .cabecalho__a{
+    padding: 2%;
+    width: 2%;
+    }  
+    .cabecalho__ul{
+        justify-content: space-around;
+    }
+}
