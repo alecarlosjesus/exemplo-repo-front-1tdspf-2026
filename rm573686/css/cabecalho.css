@@ -1,0 +1,46 @@
+.cabecalho{
+    width: 100%;
+    height: auto;
+    background: var(--bg-gradiente);
+}
+
+    .cabecalho_ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+.cabecalho_li{
+    display:inline-block;
+    margin: 0 1%;
+}
+
+.cabecalho_a{
+    display: inline-block;
+    padding: 4%;
+    width: 9vw;
+    text-align: center;
+    color: #fff;
+}
+
+/*PSEUDO CLASSE*/
+
+.cabecalho_a:hover{
+    background-color: #1763a5;
+    color: #fff;
+}
+
+
+@media (min-width: 320px) and (max-width: 720px){
+    
+    
+    .cabecalho_a{
+        padding: 2%;
+        width: 2%;
+    }
+
+    
+    .cabecalho_lu{
+        justify-content: space-around;
+    }
+}    
