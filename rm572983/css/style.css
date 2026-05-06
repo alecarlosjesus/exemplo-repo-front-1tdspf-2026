@@ -1,0 +1,107 @@
+*{ 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.container{ 
+  margin:0 auto; 
+  width: 75vw; 
+  height: 100vh; 
+} 
+  header { background-color: #7e7e7e; 
+    color: black; 
+    text-align: center; 
+    
+} 
+  header nav ul { list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: #333333; 
+    text-align: center; 
+} 
+  header nav ul { list-style: none; 
+    display: flex; 
+    justify-content: center; /* CENTRALIZA */ 
+    padding: 0; 
+    margin: 0; 
+    background-color: #464646; 
+    font-family: Arial, sans-serif; 
+} 
+  ul li a { 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+} 
+  ul li a:hover { 
+    background-color: #111111; 
+} 
+  #hero { 
+    background-color: #f4f4f4; 
+    text-align: center; 
+    padding: 40px; 
+    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px; 
+} 
+  #hero a{ 
+    color: #ffffff; 
+    text-decoration: none; 
+    background-color: #000000; 
+    padding: 10px; 
+    border-radius: 5px; 
+} /* Pseudo é como se fosse uma condição Falamos para o seletor, se acontecer isso, faça aquilo*/ 
+  #hero a:hover{ 
+    background-color: #7a7a7a; 
+    color: #181818; 
+} 
+  #hero a:active{ 
+    background-color: #7dc0ff; 
+    color: #232323; 
+} 
+/* Editar a imagem*/ 
+  img { 
+    width: 5%; 
+    height: auto; 
+    border-radius: 5px; 
+} 
+  .container { 
+    width: 100%; 
+    overflow: hidden; 
+} 
+  .card { 
+    width: 30%; 
+    float: left; 
+    margin: 1%; 
+    padding: 20px; 
+    border: 1px solid #000000; 
+    border-radius: 10px; 
+    text-align: center; 
+    box-sizing: border-box; /* ESSENCIAL */
+} 
+  .card span { font-size: 40px; //Tamanho do emoji 
+}
+  .card h3 { 
+    margin: 10px 0; 
+} 
+  footer { 
+    background-color: #333333; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 20px; 
+} 
+  footer a { 
+    color: #ffffff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+} 
+  footer a:hover { 
+    text-decoration: underline; 
+}
